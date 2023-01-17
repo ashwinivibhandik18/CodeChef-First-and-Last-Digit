@@ -1,0 +1,8 @@
+
+#First and Last Digit
+
+t=int(input())
+l1=[]
+for i in range(t):
+    x=input()
+    l1.append(int(x[0])+int(x[len(x)]))
